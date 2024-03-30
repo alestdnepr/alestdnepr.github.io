@@ -1,0 +1,26 @@
+.card-text {
+    color: aquamarine;
+}
+
+.carousel-item {
+    height: 500px;
+    background: linear-gradient(270deg, #00009C 0%, #252525 100%);
+}
+
+.carousel-item img {
+    height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.text-box p {
+    text-align: left;
+    margin-top: 15px;
+}
+
+@media (max-width: 767.9px) {
+    .cont-text-num {
+        margin-top: 1.5em;
+    }
+}

@@ -1,0 +1,76 @@
+.mnavbar {
+    display: flex;
+    background-color: rgb(36, 36, 36);
+}
+
+.mnavbar .mnav-pan-active {
+    color: rgb(110, 110, 251);
+}
+
+.mnbar-logo img {
+    width: 80px;
+}
+
+.mnbar-tel {
+    text-decoration: none;
+    color: aquamarine;
+    margin: auto auto;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.mnav-list {
+    display: flex;
+}
+
+.mnav-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.mnav-list a:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.myb-button {
+    display: none;
+}
+
+@media (max-width: 1176px) {
+    .myb-button {
+        display: block;
+        cursor: pointer;
+        font-size: 3em;
+        padding-inline: 4px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(36, 36, 36);
+        color: rgb(209, 213, 218);
+    }
+
+    .mnav-list {
+        display: none;
+    }
+
+    .myb-button:hover {
+        background-color: rgb(70, 70, 70);
+    }
+
+    .mbutandtxt:hover .mnav-list {
+        display: block;
+        position: absolute;
+        top: 88.7px;
+        right: 0.1px;
+        background-color: rgb(36, 36, 36);
+        z-index: 3;
+    }
+
+    .mnavbar {
+        justify-content: space-between;
+    }
+}

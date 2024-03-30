@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(90deg, #2C53AB 0%, #0C054D 100%);
+}
+
+a {
+    color: aquamarine;
+}
+
+p {
+    margin: 3px;
+}
+
+.maxH500 {
+    max-height: 500px;
+}
+
+.FinTextMP {
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0;
+}
+
+.foto-pobeda {
+    height: 500px;
+    background: linear-gradient(270deg, #00009C 0%, #252525 100%);
+}
+
+.foto-pobeda img {
+    height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.card {
+    height: 600px;
+    background: linear-gradient(270deg, #00009C 0%, #252525 100%);
+    color: aquamarine;
+}
+
+.card-body {
+    padding: 0.5em;
+}
+
+.card a {
+    color: aquamarine;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 2px;
+
+    .card-img-top {
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        padding: 2px;
+    }
+}
+
+.card-about {
+    color: aquamarine;
+}
+
+.main-foto-about {
+    background: linear-gradient(270deg, #00009C 0%, #252525 100%);
+}
+
+.card-about img {
+    height: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.slide-text {
+    color: aquamarine;
+    font-size: 22px;
+    text-decoration: none;
+    margin: auto auto;
+    padding-right: 100px;
+}
+
+.mygooglemap {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: aquamarine;
+    text-decoration: none;
+    margin: auto auto;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+}
+
+.btn-primary {
+    color: aquamarine;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media (max-width: 767.9px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .slide-text {
+        padding-right: 0;
+    }
+
+    .foto-pobeda {
+        height: 450px;
+        background: linear-gradient(270deg, #00009C 0%, #252525 100%);
+    }
+
+    .foto-pobeda img {
+        height: 450px;
+        max-width: 100%;
+        overflow: hidden;
+        object-fit: contain;
+    }
+}
