@@ -86,10 +86,6 @@ p {
     padding-right: 100px;
 }
 
-.call-anim {
-    color-scheme: only light;
-}
-
 .mygooglemap {
     max-width: 100%;
     position: relative;
@@ -114,6 +110,7 @@ footer {
 
 .call-anim {
     animation: myAnim 2s ease 0s infinite normal forwards;
+    color-scheme: only light;
 }
 
 @keyframes myAnim {
