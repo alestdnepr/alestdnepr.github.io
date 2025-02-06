@@ -86,6 +86,10 @@ p {
     padding-right: 100px;
 }
 
+.icons-light {
+    color-scheme: only light;
+}
+
 .mygooglemap {
     max-width: 100%;
     position: relative;
