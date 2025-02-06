@@ -10,6 +10,10 @@ p {
     margin: 3px;
 }
 
+.carousel {
+    color-scheme: only light;
+}
+
 .maxH500 {
     max-height: 500px;
 }
