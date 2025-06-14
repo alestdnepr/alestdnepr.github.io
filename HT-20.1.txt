@@ -1,7 +1,7 @@
 https://github.com/alestdnepr/alestdnepr.github.io
 
 
-0. Согласно Д.З.20.1. - "QA-Manual_07.04.2025.txt".
+0. Согласно Д.З.20.1. - файл "QA-Manual_07.04.2025.txt".
 
 1. Добавлены 2 фото в папку "Retro" (для главной странице в рубрике "История жилмассива Победа в фотографиях").
 2. Изменения в файле "index.html" к пункту 1.
@@ -11,4 +11,4 @@ https://github.com/alestdnepr/alestdnepr.github.io
 6. Полностью заменён файл "5-room.html".
 7. Добавлены 9 фото к файлу в пункте 5.
 
-8. Согласно Д.З.20.1. - "Alexey.Hanzhur.gitpractice".
+8. Согласно Д.З.20.1. - ветка "Alexey.Hanzhur.gitpractice" + файл "HT-20.1.txt".
