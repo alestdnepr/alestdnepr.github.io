@@ -68,7 +68,7 @@ p {
 }
 
 .card-about img {
-    height: 400px;
+    max-height: 400px;
     max-width: 100%;
     overflow: hidden;
     object-fit: contain;
