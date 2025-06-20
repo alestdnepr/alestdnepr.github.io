@@ -1,2 +1,2 @@
 QA-Manual_07.04.2025.
-Changes in Estate Agency site (mini-vers. for GitHub).
+Changes in Estate Agency site (mini-version for GitHub).
