@@ -19,13 +19,9 @@
     margin-top: 15px;
 }
 
-.col-lg-5 {
-    height: 500px;
-    background: linear-gradient(90deg, #00009C 0%, #252525 100%);
-}
-
 @media (max-width: 767.9px) {
     .cont-text-num {
         margin-top: 1.5em;
     }
+
 }
